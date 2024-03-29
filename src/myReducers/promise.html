@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Promise</h1>
+    <script>
+    let p=new Promise(function(resolve,reject){
+        let a=5+5;
+if(a==10){
+resolve("success");
+}
+else{
+    reject("failed");
+}
+    });
+
+    // console.log(p)
+
+//     p.then((message)=>{
+// document.write(message + " Promise fullfilled");
+//     }).catch((error)=>{
+//         document.write(error + " promise rejected");
+//     })
+
+const onFullilled= (message)=>{
+document.write(message + " Promise fullfilled");
+}
+
+const onRejected = (error)=>{
+        document.write(error + " promise rejected");
+}
+
+p.then(onFullilled).catch(onRejected);
+
+
+
+    </script>
+</body>
+</html>

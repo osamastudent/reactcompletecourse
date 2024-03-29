@@ -1,0 +1,47 @@
+.main-nav{
+    background-color: black;
+    padding: 20px;
+}
+
+.main-nav a{
+    color: white;
+    margin-right: 20px;
+}
+.main-nav a:hover{
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background-color: green;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.main-nav .active{
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background-color: green;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+.nav .active{
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background-color: green;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+
+
+.nav a{
+    color: white;
+    margin-right: 20px;
+}
+.myerror{
+    color: red;
+}
